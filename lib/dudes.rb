@@ -1,5 +1,6 @@
 # this module was created by Victor Shepelev (zverok) https://github.com/zverok
 require 'fast'
+require 'astrolabe'
 
 module Dudes
   class Calculator

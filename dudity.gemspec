@@ -10,4 +10,8 @@ Gem::Specification.new do |s|
   s.homepage = 'https://github.com/dmikhr/Dudity'
   s.license = 'MIT'
   s.files = Dir['lib/**/*'].keep_if { |file| File.file?(file) }
+
+  s.add_dependency 'dudegl'
+  s.add_dependency 'fast'
+  s.add_dependency 'astrolabe'
 end
